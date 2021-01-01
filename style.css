@@ -5,10 +5,8 @@
 }
 
 body {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 50px;
+  padding: 0;
   font-family: "GFS Neohellenic", sans-serif;
 }
 .calculator {
@@ -44,7 +42,7 @@ button:focus {
   color: black;
 }
 
-.operator {
+.operation {
   background-color: #f1a33c;
 }
 
@@ -63,14 +61,15 @@ button:focus {
   padding: 0 18px;
 }
 
-.value {
-  width: 100%;
+div.value {
   height: 180px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   font-weight: 320;
-  font-size: 100px;
-  text-align: right;
+  font-size: 90px;
   padding: 0 18px;
-  padding-top: 80px;
+  margin: 0 20px;
 }
 
 .buttons_container {
